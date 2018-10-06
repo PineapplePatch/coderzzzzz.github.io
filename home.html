@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+
+<h1 class="title"> Delicious Cookie </h1>
+
+<div id="prfile-pic">
+  <img id='placeholder' src="https://media1.tenor.com/images/33861027b746664f0a2a307d362d23b3/tenor.gif?itemid=8917897">
+  
+  <p class="caption">Welcome to the world of cookies. </p>
+  
+  <img class='thumb-sized' src="https://previews.123rf.com/images/martialred/martialred1507/martialred150700939/42621315-thumbs-up-like-line-art-icon-for-apps-and-websites.jpg">
+  <button onClick="clickedLike()">Like!</button>
+  <span id="click-count">0</span>
+</div>
+function clickedLike() {
+  var count = $("#click-count").text()
+  console.log(count+1)
+  $("#click-count").text(String(Number(count) + 1))
+  //console.log("click received")
+}
+img.thumb-sized {
+  height: 1px
+    
+}
+
+.caption{
+  background: linear-gradient(to right, Orange, Tomato);
+}
+
+.title{
+  background: linear-gradient(to right, Orange, Tomato);
+}
+
+body{
+  background: linear-gradient(to right, Orange, Tomato);
+  color:white
+}

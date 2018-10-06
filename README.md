@@ -1,2 +1,2 @@
 # Delicious Cookie Pictures
-<h1> Hey people!! </h1>
+<h1> Hey People </h1>
